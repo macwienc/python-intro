@@ -1,0 +1,21 @@
+zip() - łączy dwa lub więcej iterowalnych obiektów (lists, tuples etc) w jeden iterator.
+
+przyklad:
+
+list1 = [1, 2, 3]
+list2 = ['a', 'b', 'c']
+for x, y in zip(list1, list2):
+    print(x, y)
+# Wynik:
+# 1 a
+# 2 b
+# 3 c
+
+https://docs.python.org/3/library/functions.html#zip
+
+
+math - udostępnia szereg funkcji matematycznych i stałych
+https://docs.python.org/3/library/math.html
+
+ValueError - wyjatek, który jest podnoszony wtedy, gdy argument funkcji lub operacji ma właściwy typ, ale niewłaściwą wartość
+https://docs.python.org/3/library/exceptions.html#ValueError
